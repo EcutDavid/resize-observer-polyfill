@@ -247,7 +247,7 @@ var throttle = function (callback, delay) {
 };
 
 // Minimum delay before invoking the update of observers.
-var REFRESH_DELAY = 20;
+var REFRESH_DELAY = 1;
 
 // A list of substrings of CSS properties used to find transition events that
 // might affect dimensions of observed elements.
